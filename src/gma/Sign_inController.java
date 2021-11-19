@@ -78,6 +78,13 @@ public class Sign_inController implements Initializable {
        
               if(email1.equalsIgnoreCase(rs.getString("Email"))&&password1.equals(rs.getString("password")))
        
+<<<<<<< HEAD
+                       if(email1.equalsIgnoreCase(rs.getString("Email"))&&password1.equals(rs.getString("password")))
+                       {
+                       flag=1;
+                       break;
+                       }
+=======
               {
                   
                 
@@ -85,6 +92,7 @@ public class Sign_inController implements Initializable {
               break;
               }
                 
+>>>>>>> master
       }
       
       

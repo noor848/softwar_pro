@@ -12,9 +12,9 @@ import javafx.fxml.Initializable;
 /**
  * FXML Controller class
  *
- * @author zaytona
+ * @author USER
  */
-public class AddSubController implements Initializable {
+public class CompanyEditInfoController implements Initializable {
 
     /**
      * Initializes the controller class.
